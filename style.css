@@ -29,11 +29,13 @@ body {
   -moz-box-shadow: 0px 13px 31px 0px rgba(0, 0, 0, 0.29);
 }
 
-.container > div {
+.header,
+.grid-container > div {
   padding: 1.5em;
 }
 
-.container > div > * {
+.header > *,
+.grid-container > div > * {
   margin-bottom: 1.25em;
 }
 
